@@ -1,15 +1,15 @@
 ---
 layout: page
 title: "Part III: GAT Implementation on COBRE-CogniNet"
-permalink: /cobre-gat/pages/part-iii-cobre-implementation/
+permalink: /pages/part-iii-cobre-implementation/
 ---
 
 # Part III: GAT Implementation on COBRE-CogniNet
 
 COBRE implementation content here...
 
-[Previous: Part II - Graph Attention Networks (GAT)](/cobre-gat/pages/part-ii-gat/)
-[Next: Part IV - COBRE Classification Model with GAT](/cobre-gat/pages/part-iv-classification-model/)
+[Previous: Part II - Graph Attention Networks (GAT)](/pages/part-ii-gat/)
+[Next: Part IV - COBRE Classification Model with GAT](/pages/part-iv-classification-model/)
 
 # Part-III: GAT Implementation on COBRE- CogniNet
 

@@ -1,14 +1,14 @@
 ---
 layout: page
 title: "Part IV: COBRE Classification Model with GAT"
-permalink: /cobre-gat/pages/part-iv-classification-model/
+permalink: /pages/part-iv-classification-model/
 ---
 
 # Part IV: COBRE Classification Model with GAT
 
 Classification model content here...
 
-[Previous: Part III - GAT Implementation on COBRE-CogniNet](/cobre-gat/pages/part-iii-cobre-implementation/)
+[Previous: Part III - GAT Implementation on COBRE-CogniNet](/pages/part-iii-cobre-implementation/)
 
 # Part-IV: COBRE Classification Model with GAT
 

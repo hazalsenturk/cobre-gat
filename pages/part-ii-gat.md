@@ -1,15 +1,15 @@
 ---
 layout: page
 title: "Part II: Graph Attention Networks (GAT)"
-permalink: /cobre-gat/pages/part-ii-gat/
+permalink: /pages/part-ii-gat/
 ---
 
 # Part II: Graph Attention Networks (GAT)
 
 GAT content here...
 
-[Previous: Part I - Introduction](/cobre-gat/pages/part-i-introduction/)
-[Next: Part III - GAT Implementation on COBRE-CogniNet](/cobre-gat/pages/part-iii-cobre-implementation/)
+[Previous: Part I - Introduction](/pages/part-i-introduction/)
+[Next: Part III - GAT Implementation on COBRE-CogniNet](/pages/part-iii-cobre-implementation/)
 
 # Part-II: Graph Attention Networks (GAT)
 
