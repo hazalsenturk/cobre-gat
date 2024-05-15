@@ -4,26 +4,44 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>{{ page.title }}</title>
-    <link rel="stylesheet" href="{{ "/assets/css/styles.css" | relative_url }}">
+    <link
+      rel="stylesheet"
+      href="{{ '/assets/css/style.css' | relative_url }}"
+    />
   </head>
   <body>
     <header>
-      <h1>
-        <a href="{{ site.baseurl | prepend: site.url }}">{{ site.title }}</a>
-      </h1>
       <nav>
         <ul>
-          <li><a href="{{ site.baseurl | prepend: site.url }}/">Home</a></li>
-          <!-- Add more links as needed -->
+          <li><a href="{{ '/' | relative_url }}">Home</a></li>
+          <li>
+            <a href="{{ '/pages/part-i-introduction/' | relative_url }}"
+              >Part I: Introduction</a
+            >
+          </li>
+          <li>
+            <a href="{{ '/pages/part-ii-gat/' | relative_url }}"
+              >Part II: GAT</a
+            >
+          </li>
+          <li>
+            <a
+              href="{{ '/pages/part-iii-cobre-implementation/' | relative_url }}"
+              >Part III: COBRE Implementation</a
+            >
+          </li>
+          <li>
+            <a
+              href="{{ '/pages/part-iv-classification-model/' | relative_url }}"
+              >Part IV: Classification Model</a
+            >
+          </li>
         </ul>
       </nav>
     </header>
     <main>{{ content }}</main>
     <footer>
-      <p>
-        &copy; {{ site.time | date: "%Y" }} {{ site.title }}. All rights
-        reserved.
-      </p>
+      <p>&copy; 2024 Your Name. All rights reserved.</p>
     </footer>
   </body>
 </html>
