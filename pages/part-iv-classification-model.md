@@ -1,14 +1,14 @@
 ---
 layout: page
 title: "Part IV: COBRE Classification Model with GAT"
-permalink: /part-iv-classification-model/
+permalink: /cobre-gat/pages/part-iv-classification-model/
 ---
 
 # Part IV: COBRE Classification Model with GAT
 
 Classification model content here...
 
-[Previous: Part III - GAT Implementation on COBRE-CogniNet](/part-iii-cobre-implementation/)
+[Previous: Part III - GAT Implementation on COBRE-CogniNet](/cobre-gat/pages/part-iii-cobre-implementation/)
 
 # Part-IV: COBRE Classification Model with GAT
 
@@ -107,7 +107,9 @@ Alright, let's jump into the coding section! We'll explore how to leverage these
   cobre_csvs_path =  '../cobre/aal/'
   ```
 - **Convert Connectivity Matrices to PyTorch Geometric Data:**
+
   - We'll write functions to transform the connectivity matrices into a format suitable for PyTorch Geometric.
+
   ```python
   def cm_to_edges(cm: np.ndarray):
       """
@@ -167,7 +169,9 @@ Alright, let's jump into the coding section! We'll explore how to leverage these
 
 - We use predefined splits for training and testing, loading these from a JSON file.
 - **Reading and Preparing Data:**
+
   - We'll read the feature matrices and prepare the data for training.
+
   ```python
   cobre_splits = json.load(open('cobre/cobre_splits_new.json')) # here we also use the same train test splits as for classic ML
   train_ids = [i['train']+i['valid'] for i in cobre_splits['train']]
@@ -176,6 +180,7 @@ Alright, let's jump into the coding section! We'll explore how to leverage these
   test_ids = cobre_splits['test']
   group = np.array(cobre_y.Dx)
   ```
+
   ```python
   X = []
   Y = []
@@ -203,6 +208,7 @@ Alright, let's jump into the coding section! We'll explore how to leverage these
 
 - Create data loaders for both PyTorch Geometric and traditional neural network formats, as they require different handling.
   [Why two different loaders: ](https://www.notion.so/Why-two-different-loaders-b89832494055443b94099d7c88fed961?pvs=21)
+
   ```python
   # creation of PyG dataloaders and common dataloaders
   # PyG data has specific batching
@@ -233,13 +239,17 @@ Alright, let's jump into the coding section! We'll explore how to leverage these
 Let's proceed to verify the dimensions of the data loaded into our training dataset loaders:
 
 1. **Check the Data Shape:**
+
    - For the traditional neural network format:
+
      ```python
      next(iter(train_loader_cobre))[0].shape, next(iter(train_loader_cobre))[1].shape
 
      # Output: (torch.Size([16, 116, 116]), torch.Size([16, 2]))
      ```
+
    - For the PyTorch Geometric format:
+
      ```python
 
      next(iter(train_loader_cobre_pyg))  # x
@@ -397,6 +407,7 @@ Next, let’s build the MLP (Multilayer Perceptron) layers that will be used in 
 3. **Function to Build an MLP Layer:**
 
    - This function takes the input size and a layer configuration, and constructs an **`nn.Sequential`** model representing the layer.
+
      ```python
       def build_mlp_layer(in_size: int, layer: MLPlayer) -> nn.Sequential:
          """ Factory that returns nn.Sequential from input size and MLPlayer """
