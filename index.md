@@ -1,6 +1,7 @@
 ---
 layout: default
 title: "Graph Neural Networks and Health Science Implementations: Schizophrenia"
+permalink: /
 ---
 
 # Graph Neural Networks and Health Science Implementations: Schizophrenia
