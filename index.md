@@ -3,7 +3,7 @@ layout: default
 title: "Graph Neural Networks and Health Science Implementations: Schizophrenia"
 ---
 
-# Graph Neural Networks and Health Science Implementations: Schizophrenia (1)
+# Graph Neural Networks and Health Science Implementations: Schizophrenia
 
 ## [Part I: Introduction](/pages/part-i-introduction.md/)
 
