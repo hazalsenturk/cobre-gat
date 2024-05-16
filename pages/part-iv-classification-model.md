@@ -8,7 +8,7 @@ permalink: /pages/part-iv-classification-model/
 
 Classification model content here...
 
-[Previous: Part III - GAT Implementation on COBRE-CogniNet](/pages/part-iii-cobre-implementation/)
+[Previous: Part III - GAT Implementation on COBRE-CogniNet](/pages/part-iii-cobre-implementation.md/)
 
 # Part-IV: COBRE Classification Model with GAT
 
