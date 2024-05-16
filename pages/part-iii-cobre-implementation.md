@@ -5,8 +5,6 @@
 [Next: Part IV - COBRE Classification Model with GAT](/pages/part-iv-classification-model.md/)
 
 
-[https://github.com/utoprey/CogniNet](https://github.com/utoprey/CogniNet)
-
 In this section, we'll delve into the remarkable research conducted by the CogniNet team from Skoltech. Their study involves a comparative analysis of functional MRI (fMRI) data from the well-established Schizophrenia unimodal dataset, using cutting-edge techniques. Additionally, they set a benchmark for machine learning methods in this area.
 
 [CogniNet Original Repository](https://github.com/utoprey/CogniNet)
