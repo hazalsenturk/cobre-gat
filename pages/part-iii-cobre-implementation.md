@@ -8,8 +8,8 @@ permalink: /pages/part-iii-cobre-implementation/
 
 COBRE implementation content here...
 
-[Previous: Part II - Graph Attention Networks (GAT)](/pages/part-ii-gat/)
-[Next: Part IV - COBRE Classification Model with GAT](/pages/part-iv-classification-model/)
+[Previous: Part II - Graph Attention Networks (GAT)](/pages/part-ii-gat.md/)
+[Next: Part IV - COBRE Classification Model with GAT](/pages/part-iv-classification-model.md/)
 
 # Part-III: GAT Implementation on COBRE- CogniNet
 
