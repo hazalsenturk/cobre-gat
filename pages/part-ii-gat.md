@@ -7,7 +7,8 @@
 **Preliminary Reading Recommendations**
 Before delving into the specifics of Graph Attention Networks (GAT), it is beneficial to familiarize yourself with the basics of graph networks and attention mechanisms in neural networks. Below are some resources that provide foundational knowledge:
 
-- **Graph Neural Networks Overview**: This article introduces the fundamental concepts of GNNs and explains their application across various data types, from images to text. [Learn more about Graph Neural Networks](https://h2o.ai/wiki/self-attention/#:~:text=Self%2Dattention%20is%20a%20mechanism,sequence%20by%20attending%20to%20itself).
+- **Graph Neural Networks Overview**: This article introduces the fundamental concepts of GNNs and explains their application across various data types, from images to text.
+-  [Learn more about Graph Neural Networks](https://h2o.ai/wiki/self-attention/#:~:text=Self%2Dattention%20is%20a%20mechanism,sequence%20by%20attending%20to%20itself).
 - **Attention Mechanisms in Deep Learning**: This resource delves into the various types of attention mechanisms, including self-attention, which will be our focus. [Discover Attention Mechanisms](https://www.scaler.com/topics/deep-learning/attention-mechanism-deep-learning/)
 
 **Introduction to Graph Attention Networks (GAT)**
