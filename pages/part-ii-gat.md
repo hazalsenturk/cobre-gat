@@ -1,8 +1,7 @@
 # Part II: Graph Attention Networks (GAT)
 
-GAT content here...
-
 [Previous: Part I - Introduction](/pages/part-i-introduction.md/)
+
 [Next: Part III - GAT Implementation on COBRE-CogniNet](/pages/part-iii-cobre-implementation.md/)
 
 **Preliminary Reading Recommendations**
