@@ -1,7 +1,6 @@
 ---
 layout: page
 title: "Part I: Introduction"
-permalink: /pages/part-i-introduction/
 ---
 
 [Next: Part II - Graph Attention Networks (GAT)](/pages/part-ii-gat/)
