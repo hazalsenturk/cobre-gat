@@ -13,4 +13,4 @@ title: "Graph Neural Networks and Health Science Implementations: Schizophrenia"
 
 ## [Part IV: COBRE Classification Model with GAT](/pages/part-iv-classification-model.md/)
 
-## [Graph*NN*&\_MLP.ipynb](Graph_NN__MLP.ipynb)
+## [Graph*NN*&\_MLP.ipynb](Graph_NN_&_MLP.ipynb)
