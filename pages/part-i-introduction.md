@@ -4,7 +4,7 @@ title: "Part I: Introduction"
 permalink: /pages/part-i-introduction
 ---
 
-[Next: Part II - Graph Attention Networks (GAT)](/pages/part-ii-gat/)
+[Next: Part II - Graph Attention Networks (GAT)](/pages/part-ii-gat.md/)
 
 # Part-I: Introduction
 
