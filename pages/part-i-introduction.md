@@ -3,7 +3,7 @@ layout: page
 title: "Part I: Introduction"
 ---
 
-[Next: Part II - Graph Attention Networks (GAT)](/pages/part-ii-gat.md/)
+[Next: Part II - Graph Attention Networks (GAT)](/cobre-gat/pages/part-ii-gat.md/)
 
 # Part-I: Introduction
 
