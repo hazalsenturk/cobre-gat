@@ -1,6 +1,7 @@
 ---
 layout: page
 title: "Part I: Introduction"
+permalink: /cobre-gat/pages/part-i-introduction.md/
 ---
 
 [Next: Part II - Graph Attention Networks (GAT)](/cobre-gat/pages/part-ii-gat.md/)
