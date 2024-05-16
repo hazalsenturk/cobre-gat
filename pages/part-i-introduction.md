@@ -4,7 +4,7 @@
 
 Title: Unraveling Schizophrenia with BrainGAT: A Deep Dive into the COBRE Dataset
 
-![t-sne.png](/cobre-gat/_assets/images/part1/t-sne.png)
+![t-sne.png](/_assets/images/part1/t-sne.png)
 
 As the frontier of deep learning intersects with healthcare, the exploration of complex mental disorders like schizophrenia through advanced models like the Brain Graph Attention Network (BrainGAT) showcases both immense promise and notable challenges. This blog post delves into three critical aspects: the underlying mechanics of Graph Attention Networks (GAT), the innovative application of BrainGAT to the COBRE dataset, and a practical tutorial to engage directly with the technology.
 
