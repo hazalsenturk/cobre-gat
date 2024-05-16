@@ -10,7 +10,7 @@ permalink: /pages/part-i-introduction/
 
 Title: Unraveling Schizophrenia with BrainGAT: A Deep Dive into the COBRE Dataset
 
-![t-sne.png](/pages/Part-I%20Introduction%20ee9a7c69b9ba4fa98e2f326a3f46d07a/t-sne.png)
+![t-sne.png](/cobre-gat/assets/images/t-sne.png)
 
 Introduction:
 
