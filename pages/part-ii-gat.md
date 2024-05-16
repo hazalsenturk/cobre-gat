@@ -1,17 +1,9 @@
----
-layout: page
-title: "Part II: Graph Attention Networks (GAT)"
-permalink: /cobre-gat/pages/part-ii-gat.md/
----
-
 # Part II: Graph Attention Networks (GAT)
 
 GAT content here...
 
 [Previous: Part I - Introduction](/pages/part-i-introduction.md/)
 [Next: Part III - GAT Implementation on COBRE-CogniNet](/pages/part-iii-cobre-implementation.md/)
-
-# Part-II: Graph Attention Networks (GAT)
 
 **Preliminary Reading Recommendations**
 Before delving into the specifics of Graph Attention Networks (GAT), it is beneficial to familiarize yourself with the basics of graph networks and attention mechanisms in neural networks. Below are some resources that provide foundational knowledge:
