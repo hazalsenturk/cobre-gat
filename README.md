@@ -4,7 +4,7 @@
 
 Title: Unraveling Schizophrenia with BrainGAT: A Deep Dive into the COBRE Dataset
 
-![t-sne.png](/assets/images/part1/t-sne.png)
+![t-sne.png](/_assets/images/part1/t-sne.png)
 
 Introduction:
 
