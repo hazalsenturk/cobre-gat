@@ -30,11 +30,17 @@ The GAT architecture processes input node features ℎ={ℎ~1,ℎ~2,...,ℎ~𝑁
 
 - **Linear Transformation**: Each node feature undergoes a transformation to increase feature expressiveness.
 - **Self-Attention Mechanism**: Calculates un-normalized attention scores between node pairs to determine the influence of one node on another.
+- 
   ![Screenshot 2024-04-28 at 7.44.22 PM.png](<Part-II%20Graph%20Attention%20Networks%20(GAT)%20303766cead4c4b74a4e3d3f70f591f5b/Screenshot_2024-04-28_at_7.44.22_PM.png>)
+  
   ![Screenshot 2024-04-28 at 7.39.55 PM.png](<Part-II%20Graph%20Attention%20Networks%20(GAT)%20303766cead4c4b74a4e3d3f70f591f5b/Screenshot_2024-04-28_at_7.39.55_PM.png>)
+  
 - **Normalization of Attention Scores**: Applies a softmax function to convert attention scores into a probability distribution, ensuring comparability across nodes.
+- 
   ![Screenshot 2024-04-28 at 8.14.10 PM.png](<Part-II%20Graph%20Attention%20Networks%20(GAT)%20303766cead4c4b74a4e3d3f70f591f5b/Screenshot_2024-04-28_at_8.14.10_PM.png>)
+  
   ![Screenshot 2024-04-28 at 8.15.29 PM.png](<Part-II%20Graph%20Attention%20Networks%20(GAT)%20303766cead4c4b74a4e3d3f70f591f5b/cdd74c61-ec4e-4b04-bffa-48b6edc42875.png>)
+  
 - **Feature Aggregation**: Uses the normalized attention scores to compute a weighted sum of the features, forming the output features for each node.
 
 **Model Evaluation:**
