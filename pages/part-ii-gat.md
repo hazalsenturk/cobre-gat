@@ -1,7 +1,6 @@
 ---
 layout: page
 title: "Part II: Graph Attention Networks (GAT)"
-permalink: /pages/part-ii-gat/
 ---
 
 # Part II: Graph Attention Networks (GAT)
